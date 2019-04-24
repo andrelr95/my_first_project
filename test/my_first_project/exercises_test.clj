@@ -3,7 +3,7 @@
            [my-first-project.exercises :refer :all]))
 
 (deftest simple-sum
-  (testing "The sum of 7654 1234"
+  (testing "The sum of those values 7654 1234"
     (is (= 8888 (exercise1 7654 1234)))))
 
 (deftest multi-arity-greeting-test
@@ -12,3 +12,4 @@
     (is (= "Hello, Clojure!" (greeting "Clojure"))
     (is (= "Good morning, Clojure!" (greeting "Good morning" "Clojure")))))))
 
+$ git remote set-url origin git@github.com:andrelr95/my_first_project.git
