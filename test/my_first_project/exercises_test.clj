@@ -7,7 +7,8 @@
     (is (= 8888 (exercise1 7654 1234)))))
 
 (deftest multi-arity-greeting-test
-  (testing "Greeting on multi-arity functions"
+  (testing "Greeting on multi-arity function"
     (is (= "Hello, World!" (greeting))
     (is (= "Hello, Clojure!" (greeting "Clojure"))
     (is (= "Good morning, Clojure!" (greeting "Good morning" "Clojure")))))))
+
